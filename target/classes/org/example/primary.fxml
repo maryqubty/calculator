@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+   <children>
+      <Button fx:id="btnA" layoutX="31.0" layoutY="100.0" mnemonicParsing="false" onAction="#addA" prefHeight="26.0" prefWidth="44.0" text="A" />
+      <TextField fx:id="resultDisplay" layoutX="78.0" layoutY="46.0" />
+      <Button fx:id="bntB" layoutX="31.0" layoutY="142.0" mnemonicParsing="false" onAction="#addB" prefHeight="26.0" prefWidth="44.0" text="B" />
+      <Button fx:id="btnC" layoutX="31.0" layoutY="183.0" mnemonicParsing="false" onAction="#addC" prefHeight="26.0" prefWidth="44.0" text="C" />
+      <Button fx:id="btnD" layoutX="31.0" layoutY="225.0" mnemonicParsing="false" onAction="#addD" prefHeight="26.0" prefWidth="44.0" text="D" />
+      <Button fx:id="btnE" layoutX="31.0" layoutY="267.0" mnemonicParsing="false" onAction="#addE" prefHeight="26.0" prefWidth="44.0" text="E" />
+      <Button fx:id="btnF" layoutX="31.0" layoutY="309.0" mnemonicParsing="false" onAction="#addF" prefHeight="26.0" prefWidth="44.0" text="F" />
+      <Button fx:id="btnMode" layoutX="95.0" layoutY="100.0" mnemonicParsing="false" onAction="#changeMode" prefHeight="26.0" prefWidth="54.0" text="Mode" />
+      <Button fx:id="btn1" layoutX="95.0" layoutY="142.0" mnemonicParsing="false" onAction="#add1" prefHeight="26.0" prefWidth="44.0" text="1" />
+      <Button fx:id="btn4" layoutX="95.0" layoutY="183.0" mnemonicParsing="false" onAction="#add4" prefHeight="26.0" prefWidth="44.0" text="4" />
+      <Button fx:id="btn7" layoutX="95.0" layoutY="225.0" mnemonicParsing="false" onAction="#add7" prefHeight="26.0" prefWidth="44.0" text="7" />
+      <Button fx:id="btnPlus" layoutX="95.0" layoutY="267.0" mnemonicParsing="false" onAction="#addPlus" prefHeight="26.0" prefWidth="44.0" text="+" />
+      <Button fx:id="btnStar" layoutX="95.0" layoutY="309.0" mnemonicParsing="false" onAction="#addStar" prefHeight="26.0" prefWidth="44.0" text="*" />
+      <Button fx:id="btn2" layoutX="153.0" layoutY="142.0" mnemonicParsing="false" onAction="#add2" prefHeight="26.0" prefWidth="44.0" text="2" />
+      <Button fx:id="btn5" layoutX="153.0" layoutY="183.0" mnemonicParsing="false" onAction="#add5" prefHeight="26.0" prefWidth="44.0" text="5" />
+      <Button fx:id="btn8" layoutX="153.0" layoutY="225.0" mnemonicParsing="false" onAction="#add8" prefHeight="26.0" prefWidth="44.0" text="8" />
+      <Button fx:id="btn0" layoutX="153.0" layoutY="267.0" mnemonicParsing="false" onAction="#add0" prefHeight="26.0" prefWidth="44.0" text="0" />
+      <Button fx:id="btnDiv" layoutX="153.0" layoutY="309.0" mnemonicParsing="false" onAction="#addDiv" prefHeight="26.0" prefWidth="44.0" text="/" />
+      <Button fx:id="btnClear" layoutX="217.0" layoutY="100.0" mnemonicParsing="false" onAction="#clear" prefHeight="26.0" prefWidth="44.0" text="Clear" />
+      <Button fx:id="btn3" layoutX="217.0" layoutY="142.0" mnemonicParsing="false" onAction="#add3" prefHeight="26.0" prefWidth="44.0" text="3" />
+      <Button fx:id="btn6" layoutX="217.0" layoutY="183.0" mnemonicParsing="false" onAction="#add6" prefHeight="26.0" prefWidth="44.0" text="6" />
+      <Button fx:id="btn9" layoutX="217.0" layoutY="225.0" mnemonicParsing="false" onAction="#add9" prefHeight="26.0" prefWidth="44.0" text="9" />
+      <Button fx:id="btnMinus" layoutX="217.0" layoutY="267.0" mnemonicParsing="false" onAction="#addMinus" prefHeight="26.0" prefWidth="44.0" text="-" />
+      <Button fx:id="btnEqual" layoutX="217.0" layoutY="309.0" mnemonicParsing="false" onAction="#showRes" prefHeight="26.0" prefWidth="44.0" text="=" />
+      <TextField fx:id="modeTF" layoutX="153.0" layoutY="100.0" prefHeight="26.0" prefWidth="44.0" text="HEX" />
+   </children>
+</AnchorPane>
